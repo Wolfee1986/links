@@ -29,30 +29,44 @@ body {
 }
 .name {
   color: #33272a;
+  display: flex;
+  justify-content: center;
 }
-.social-icons a {
-  color: #33272a;
-  text-decoration: none;
+.banner{
+  display: flex;
+  justify-content: center;
+}
+.social-icons {
+  color: #0e172c;
+  display: flex;
+  justify-content: space-around;
 }
 .link {
   background-color: #33272a;
   display: flex;
   align-items: center;
+  padding: 5px;
 }
 .link a {
   color:#ff8ba7;
   text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
 }
 .link img {
   width: 100px;
   height: 100px;
 border-radius: 100px;
 }
+* {
+  border: thin red solid;
+}
 .items {
   display: flex;
   flex-direction: column;
   gap: 30px;
   max-width: 640px;
+  flex-grow: 1;
 }
 
 </style>
