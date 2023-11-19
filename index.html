@@ -36,20 +36,30 @@ body {
 }
 .link {
   background-color: #33272a;
+  display: flex;
+  align-items: center;
 }
 .link a {
   color:#ff8ba7;
   text-decoration: none;
 }
 .link img {
-  width: 48px;
-  height: 48px;
-border-radius: 48px;
+  width: 100px;
+  height: 100px;
+border-radius: 100px;
 }
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+}
+
 </style>
 </head>
 
-<body>
+<body> 
+
 <div class="banner">
   <img src="/thumbnails3/car.jpg" 
   alt="Erica Verner Headshot"
@@ -107,7 +117,8 @@ border-radius: 48px;
   <div class="link">
     <img src="https://childmind.org/wp-content/uploads/2021/07/ChildMindInstitute_Logo_Horizontal.svg">
     <a target="_blank" href="https://childmind.org/">Transforming Children Mental Health</a>
-    </div>
+  
+  </div>
     </body>
   </html>
 
